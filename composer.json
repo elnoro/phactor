@@ -1,0 +1,11 @@
+{
+    "require": {
+        "jeremeamia/superclosure": "^2.1",
+        "symfony/process": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phactor\\": "src/"
+        }
+    }
+}
