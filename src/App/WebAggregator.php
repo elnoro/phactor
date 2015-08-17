@@ -38,7 +38,7 @@ class WebAggregator
      */
     public function dump()
     {
-        file_put_contents($this->pathToHtml . uniqid(), <<<HTML
+        file_put_contents($this->pathToHtml, <<<HTML
         <strong>Current PI:</strong> {$this->calculateCurrentPi()}
         <strong>Time spent:</strong> {$this->calculateRunningTime()}
 HTML
